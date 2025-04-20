@@ -3,9 +3,9 @@ import psutil
 import os
 from datetime import datetime
 
-output_folder = "C:\\pcprofiler"
+output_folder = "C:\\pc-profiler"
 os.makedirs(output_folder, exist_ok=True)
-output_file = os.path.join(output_folder, "reporte.html")
+output_file = os.path.join(output_folder, "report.html")
 
 # Ejecutar netstat para obtener procesos con conexiones activas
 result = subprocess.check_output("netstat -ano", shell=True, text=True)
