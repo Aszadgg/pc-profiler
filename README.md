@@ -49,6 +49,6 @@ PCProfiler es una herramienta en Python que genera un **reporte en formato HTML*
 > ```bash
 > python pcprofiler.py
 > ```
-> Una vez generado, abre `reporte.html` con tu navegador para visualizar los resultados.
+> Una vez generado, abre `report.html` con tu navegador para visualizar los resultados.
 
 ---
